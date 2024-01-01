@@ -1,0 +1,12 @@
+.bloop
+.bsp
+.vscode
+.metals
+target
+metals*
+.DS_Store
+.scannerwork
+src/main/scala/com/packt/dewithscala/chapter12/data/bronze/*
+src/main/scala/com/packt/dewithscala/chapter12/data/silver/*
+src/main/scala/com/packt/dewithscala/chapter12/data/gold/*
+src/main/scala/com/packt/dewithscala/chapter13/data/*
