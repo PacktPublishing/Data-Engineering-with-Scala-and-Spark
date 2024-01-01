@@ -3,8 +3,8 @@ import sbt._
 object Dependencies {
 
   object Version {
-    val spark       = "3.1.1"
-    val deequ       = "2.0.0-spark-3.1"
+    val spark       = "3.3.1"
+    val deequ       = "2.0.4-spark-3.3"
     val pureconfig  = "0.17.2"
     val doobie      = "1.0.0-RC1"
     val scalatest   = "3.2.16"
