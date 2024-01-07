@@ -1,21 +1,25 @@
 package com.packt.dewithscala.chapter1
 
-trait List[+A]
-case class Cons[+A](head: A, tail: List[A]) extends List[A]
-case object Nil extends List[Nothing]
-object List {
-  def apply[A](as: A*): List[A] =
-    if (as.isEmpty) Nil else Cons(as.head, apply(as.tail: _*))
+trait CustomList[+A]
+final case class Cons[+A](head: A, tail: CustomList[A]) extends CustomList[A]
+case object Nil extends CustomList[Nothing]
+
+@SuppressWarnings(
+  Array("org.wartremover.warts.IterableOps", "org.wartremover.warts.Recursion")
+)
+object CustomList {
+  def apply[A](as: A*): CustomList[A] =
+    if (as.isEmpty) Nil else Cons(as.head, apply(as.drop(1): _*))
 }
 
 object Patterns extends App {
 
-  def threeElements[A](l: List[A]): Boolean = l match {
+  def threeElements[A](l: CustomList[A]): Boolean = l match {
     case Cons(_, Cons(_, Cons(_, Nil))) => true
     case _                              => false
   }
 
-  println(threeElements(List(true, false)))
+  println(threeElements(CustomList(true, false)))
 
   def thirdElement[A](s: Seq[A]): Option[A] = s match {
     case Seq(_, _, a, _*) => Some(a)
