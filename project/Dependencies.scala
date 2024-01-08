@@ -9,6 +9,8 @@ object Dependencies {
     val doobie      = "1.0.0-RC1"
     val scalatest   = "3.2.16"
     val wartremover = "3.1.3"
+    val aws         = "1.12.632"
+    val hadoop      = "3.3.1"
   }
 
   private val spark = Seq(
@@ -30,14 +32,12 @@ object Dependencies {
     .exclude("junit", "junit")
 
   private val pureconfig = "com.github.pureconfig" %% "pureconfig" % "0.17.2"
-
-  private val doobie = "org.tpolecat" %% "doobie-core" % Version.doobie
-
-  private val databricksXml = "com.databricks" %% "spark-xml" % "0.16.0"
-
-  private val delta = "io.delta" %% "delta-core" % "1.0.0"
-
-  private val kafka = "org.apache.kafka" %% "kafka" % "3.1.1"
+  private val doobie        = "org.tpolecat"   %% "doobie-core" % Version.doobie
+  private val databricksXml = "com.databricks" %% "spark-xml"   % "0.16.0"
+  private val delta         = "io.delta"       %% "delta-core"  % "1.0.0"
+  private val hadoop = "org.apache.hadoop" % "hadoop-aws"   % Version.hadoop
+  private val kafka  = "org.apache.kafka" %% "kafka"        % "3.1.1"
+  private val aws    = "com.amazonaws"     % "aws-java-sdk" % Version.aws
 
   private val wartremover =
     "org.wartremover" %% "wartremover" % Version.wartremover
@@ -49,6 +49,8 @@ object Dependencies {
       doobie,
       databricksXml,
       delta,
-      kafka
+      kafka,
+      aws,
+      hadoop
     )
 }

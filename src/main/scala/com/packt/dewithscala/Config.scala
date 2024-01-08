@@ -18,7 +18,16 @@ final case class Database(
     password: Opaque
 )
 
-final case class ProjectConfig(db: List[Database])
+final case class ObjectStore(
+    endpoint: String,
+    accesskey: Opaque,
+    secretkey: Opaque
+)
+
+final case class ProjectConfig(
+    db: List[Database],
+    objectstore: List[ObjectStore]
+)
 
 object Config {
 
