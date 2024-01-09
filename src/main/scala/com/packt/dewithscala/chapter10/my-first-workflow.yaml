@@ -1,0 +1,63 @@
+apiVersion: argoproj.io/v1alpha1 #k8s apiVersion
+kind: Workflow #k8s resource kind
+metadata:
+  generateName: example-workflow- #helps to avoid name conflict
+  namespace: spark-app #k8s namespace this workflow is going to run on
+spec:
+  entrypoint: dag-seq #workflow will start with the dag-seq
+  templates:
+    - name: print-start-message
+      container:
+        image: busybox
+        imagePullPolicy: IfNotPresent
+        command: [echo]
+        args: ["Starting Argo Workflow!"]
+
+    - name: calculate-pi
+      resource:
+        action: create
+        successCondition: status.applicationState.state = COMPLETED
+        failureCondition: status.applicationState.state = FAILED
+        manifest: |
+          apiVersion: "sparkoperator.k8s.io/v1beta2"
+          kind: SparkApplication
+          metadata:
+            generateName: "spark-pi-"
+            namespace: spark-app
+          spec:
+            timeToLiveSeconds: 3600
+            type: Scala
+            mode: cluster
+            image: apache/spark:v3.3.1
+            imagePullPolicy: IfNotPresent
+            mainClass: org.apache.spark.examples.SparkPi
+            mainApplicationFile: "local://///opt/spark/examples/jars/spark-examples_2.12-3.3.1.jar"
+            sparkConf:
+              spark.kubernetes.authenticate.driver.serviceAccountName: spark
+            sparkVersion: 3.0.0
+            driver:
+              memory: 1G
+            executor:
+              instances: 1
+              cores: 1
+              memory: 1G
+
+    - name: print-termination-message
+      container:
+        image: busybox
+        imagePullPolicy: IfNotPresent
+        command: [echo]
+        args: ["Congratulations! Argo Workflow ran sucessfully!"]
+    - name: dag-seq
+      dag:
+        tasks:
+          - name: start-message #name of the task
+            template: print-start-message #name of the tamplate to be used
+
+          - name: launch-spark-job
+            depends: start-message #launch-spark-job starts after start-message
+            template: calculate-pi
+
+          - name: termination-message
+            depends: launch-spark-job
+            template: print-termination-message
