@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devices>
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000ad0e</device_id>
+        <event_ts>2020-11-04T03:44:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>0</id>
+        <line>droid</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>8.3</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000f925</device_id>
+        <event_ts>2020-09-28T01:37:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>1</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>9.9</observations>
+        <observations>6.5</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000006365</device_id>
+        <event_ts>2020-07-25T11:47:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>2</id>
+        <line>droid</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>4.9</observations>
+        <observations>6.5</observations>
+        <observations>9.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000042fb</device_id>
+        <event_ts>2020-02-07T01:26:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>3</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>4.2</observations>
+        <observations>8.8</observations>
+        <observations>3.2</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000093f2</device_id>
+        <event_ts>2020-07-05T01:45:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>4</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>5.7</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000324b</device_id>
+        <event_ts>2020-01-24T22:31:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>5</id>
+        <line>gadget</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>6.4</observations>
+        <observations>5.2</observations>
+        <observations>5.5</observations>
+        <observations>4.1</observations>
+    </device>
+
+    <device>
+        <country>SA</country>
+        <device_id>0x1000000016da0</device_id>
+        <event_ts>2020-08-22T04:27:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>6</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>3.2</observations>
+    </device>
+
+    <device>
+        <country>SA</country>
+        <device_id>0x1000000004ac2</device_id>
+        <event_ts>2020-11-24T06:12:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>7</id>
+        <line>xyzzy</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>7.5</observations>
+        <observations>6.1</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000fdf6</device_id>
+        <event_ts>2020-12-17T06:44:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>8</id>
+        <line>xyzzy</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>8.0</observations>
+        <observations>9.9</observations>
+        <observations>3.4</observations>
+        <observations>8.5</observations>
+        <observations>10.0</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000009edd</device_id>
+        <event_ts>2020-11-16T19:49:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>9</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>5.1</observations>
+        <observations>1.3</observations>
+        <observations>7.7</observations>
+        <observations>6.1</observations>
+        <observations>9.2</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000da70</device_id>
+        <event_ts>2020-07-01T19:54:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>10</id>
+        <line>xyzzy</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>6.0</observations>
+        <observations>7.8</observations>
+        <observations>6.1</observations>
+        <observations>1.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000001832</device_id>
+        <event_ts>2020-03-02T04:30:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>11</id>
+        <line>gadget</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.4</observations>
+        <observations>2.2</observations>
+        <observations>6.0</observations>
+        <observations>7.0</observations>
+        <observations>8.3</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000010e68</device_id>
+        <event_ts>2020-10-09T15:35:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>12</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>6.8</observations>
+        <observations>1.2</observations>
+        <observations>9.8</observations>
+    </device>
+
+    <device>
+        <country>ES</country>
+        <device_id>0x100000000cac6</device_id>
+        <event_ts>2020-05-31T19:52:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>13</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>2.2</observations>
+        <observations>8.0</observations>
+        <observations>7.6</observations>
+        <observations>9.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000001129f</device_id>
+        <event_ts>2020-03-22T07:15:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>14</id>
+        <line>gadget</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>1.2</observations>
+        <observations>9.6</observations>
+        <observations>6.4</observations>
+        <observations>9.4</observations>
+        <observations>7.9</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000013f08</device_id>
+        <event_ts>2020-04-08T11:21:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>15</id>
+        <line>lakehouse</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>7.4</observations>
+        <observations>8.3</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000559b</device_id>
+        <event_ts>2020-06-11T20:17:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>16</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>7.6</observations>
+    </device>
+
+    <device>
+        <country>ET</country>
+        <device_id>0x100000000a950</device_id>
+        <event_ts>2020-09-29T01:01:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>17</id>
+        <line>lakehouse</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>6.3</observations>
+        <observations>7.7</observations>
+        <observations>9.6</observations>
+        <observations>5.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000a913</device_id>
+        <event_ts>2020-08-09T11:31:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>18</id>
+        <line>lakehouse</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>3.1</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000146ee</device_id>
+        <event_ts>2020-12-17T05:51:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>19</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>8.4</observations>
+        <observations>6.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000068a</device_id>
+        <event_ts>2020-10-26T00:21:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>20</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>1.9</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000017348</device_id>
+        <event_ts>2020-03-05T15:35:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>21</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>1.1</observations>
+        <observations>7.9</observations>
+        <observations>7.2</observations>
+        <observations>1.7</observations>
+        <observations>3.7</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000aab4</device_id>
+        <event_ts>2020-03-23T12:16:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>22</id>
+        <line>xyzzy</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>9.9</observations>
+        <observations>5.3</observations>
+    </device>
+
+    <device>
+        <country>ET</country>
+        <device_id>0x1000000015b54</device_id>
+        <event_ts>2020-11-11T02:00:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>23</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>3.3</observations>
+        <observations>7.3</observations>
+        <observations>9.4</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000013afa</device_id>
+        <event_ts>2020-12-09T07:54:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>24</id>
+        <line>delta</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>9.3</observations>
+        <observations>2.7</observations>
+        <observations>4.3</observations>
+        <observations>5.1</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000f5dd</device_id>
+        <event_ts>2020-06-30T03:44:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>25</id>
+        <line>lakehouse</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>6.0</observations>
+        <observations>8.8</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000001630b</device_id>
+        <event_ts>2020-02-16T04:15:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>26</id>
+        <line>lakehouse</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>5.0</observations>
+    </device>
+
+    <device>
+        <country>PK</country>
+        <device_id>0x1000000017f96</device_id>
+        <event_ts>2020-06-10T13:07:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>27</id>
+        <line>delta</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>7.1</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000011011</device_id>
+        <event_ts>2020-10-28T03:30:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>28</id>
+        <line>xyzzy</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>2.0</observations>
+        <observations>5.9</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000003020</device_id>
+        <event_ts>2020-08-01T09:42:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>29</id>
+        <line>delta</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.3</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x100000000fe08</device_id>
+        <event_ts>2020-02-16T20:39:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>30</id>
+        <line>lakehouse</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.7</observations>
+        <observations>3.9</observations>
+        <observations>7.6</observations>
+        <observations>6.8</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000000c51</device_id>
+        <event_ts>2020-09-06T09:02:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>31</id>
+        <line>lakehouse</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>9.6</observations>
+        <observations>4.3</observations>
+        <observations>4.9</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000017563</device_id>
+        <event_ts>2020-12-08T22:05:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>32</id>
+        <line>xyzzy</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>5.4</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000f488</device_id>
+        <event_ts>2020-07-03T07:13:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>33</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>8.8</observations>
+        <observations>3.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000f732</device_id>
+        <event_ts>2020-04-10T11:33:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>34</id>
+        <line>xyzzy</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>2.1</observations>
+        <observations>9.8</observations>
+        <observations>9.8</observations>
+        <observations>7.5</observations>
+    </device>
+
+    <device>
+        <country>SA</country>
+        <device_id>0x100000000f31c</device_id>
+        <event_ts>2020-06-28T22:00:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>35</id>
+        <line>lakehouse</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>10.0</observations>
+        <observations>3.8</observations>
+        <observations>1.6</observations>
+    </device>
+
+    <device>
+        <country>MX</country>
+        <device_id>0x10000000011fb</device_id>
+        <event_ts>2020-09-11T04:42:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>36</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.1</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000145df</device_id>
+        <event_ts>2020-09-28T18:08:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>37</id>
+        <line>delta</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>5.0</observations>
+        <observations>2.6</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000012049</device_id>
+        <event_ts>2020-02-04T03:09:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>38</id>
+        <line>gadget</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>8.7</observations>
+        <observations>4.4</observations>
+        <observations>3.2</observations>
+        <observations>2.4</observations>
+        <observations>9.1</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x100000000055c</device_id>
+        <event_ts>2020-12-26T01:05:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>39</id>
+        <line>delta</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>1.6</observations>
+        <observations>7.8</observations>
+        <observations>8.5</observations>
+        <observations>9.8</observations>
+        <observations>2.0</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000000278</device_id>
+        <event_ts>2020-07-14T09:04:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>40</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>3.4</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000017ec9</device_id>
+        <event_ts>2020-01-10T22:46:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>41</id>
+        <line>xyzzy</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>8.7</observations>
+        <observations>1.3</observations>
+        <observations>9.0</observations>
+        <observations>6.5</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x1000000003283</device_id>
+        <event_ts>2020-04-14T02:11:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>42</id>
+        <line>lakehouse</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>4.2</observations>
+        <observations>2.4</observations>
+        <observations>5.6</observations>
+        <observations>4.7</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000017265</device_id>
+        <event_ts>2020-02-23T19:28:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>43</id>
+        <line>lakehouse</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>9.3</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000001069f</device_id>
+        <event_ts>2020-06-19T13:32:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>44</id>
+        <line>xyzzy</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>4.6</observations>
+        <observations>5.6</observations>
+        <observations>1.8</observations>
+        <observations>7.7</observations>
+        <observations>6.5</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000012c9a</device_id>
+        <event_ts>2020-12-08T03:18:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>45</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>4.7</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000fcb7</device_id>
+        <event_ts>2020-09-01T02:03:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>46</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>4.7</observations>
+        <observations>6.6</observations>
+        <observations>8.3</observations>
+        <observations>5.3</observations>
+        <observations>8.1</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000135a7</device_id>
+        <event_ts>2020-07-16T12:22:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>47</id>
+        <line>gadget</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>2.2</observations>
+    </device>
+
+    <device>
+        <country>GB</country>
+        <device_id>0x10000000030d3</device_id>
+        <event_ts>2020-01-30T01:25:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>48</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>8.3</observations>
+        <observations>4.5</observations>
+        <observations>5.7</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000000ab6</device_id>
+        <event_ts>2020-03-13T20:20:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>49</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.4</observations>
+        <observations>7.4</observations>
+        <observations>4.4</observations>
+        <observations>4.9</observations>
+        <observations>5.7</observations>
+    </device>
+
+    <device>
+        <country>PK</country>
+        <device_id>0x1000000017c3e</device_id>
+        <event_ts>2020-05-01T11:39:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>50</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>8.9</observations>
+        <observations>8.0</observations>
+        <observations>3.1</observations>
+        <observations>5.8</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000ec55</device_id>
+        <event_ts>2020-08-26T14:09:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>51</id>
+        <line>gadget</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>8.0</observations>
+        <observations>9.0</observations>
+        <observations>8.2</observations>
+        <observations>9.2</observations>
+        <observations>7.4</observations>
+    </device>
+
+    <device>
+        <country>IL</country>
+        <device_id>0x1000000017c2c</device_id>
+        <event_ts>2020-04-03T05:12:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>52</id>
+        <line>gadget</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>2.5</observations>
+    </device>
+
+    <device>
+        <country>IE</country>
+        <device_id>0x100000000f602</device_id>
+        <event_ts>2020-05-05T16:50:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>53</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.1</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000044e8</device_id>
+        <event_ts>2020-12-12T16:42:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>54</id>
+        <line>lakehouse</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>5.6</observations>
+        <observations>6.5</observations>
+        <observations>5.4</observations>
+        <observations>8.2</observations>
+        <observations>9.3</observations>
+    </device>
+
+    <device>
+        <country>PK</country>
+        <device_id>0x1000000006e6b</device_id>
+        <event_ts>2020-05-20T09:46:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>55</id>
+        <line>lakehouse</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>2.6</observations>
+        <observations>9.7</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000102a5</device_id>
+        <event_ts>2020-04-15T02:19:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>56</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>2.2</observations>
+        <observations>9.4</observations>
+        <observations>6.7</observations>
+        <observations>6.5</observations>
+        <observations>4.6</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000eb25</device_id>
+        <event_ts>2020-08-14T17:49:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>57</id>
+        <line>xyzzy</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>7.7</observations>
+        <observations>2.8</observations>
+        <observations>8.6</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000004461</device_id>
+        <event_ts>2020-01-11T03:37:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>58</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>4.7</observations>
+        <observations>5.2</observations>
+        <observations>6.3</observations>
+        <observations>7.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000015112</device_id>
+        <event_ts>2020-04-16T00:56:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>59</id>
+        <line>droid</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>1.1</observations>
+        <observations>9.0</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000001420</device_id>
+        <event_ts>2020-08-23T16:24:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>60</id>
+        <line>droid</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>1.3</observations>
+        <observations>5.8</observations>
+        <observations>4.3</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000eb1c</device_id>
+        <event_ts>2020-12-09T22:55:00.000Z</event_ts>
+        <event_type>activation</event_type>
+        <id>61</id>
+        <line>gadget</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.8</observations>
+    </device>
+
+    <device>
+        <country>FR</country>
+        <device_id>0x1000000000d0a</device_id>
+        <event_ts>2020-11-25T05:56:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>62</id>
+        <line>droid</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.8</observations>
+        <observations>4.5</observations>
+        <observations>7.3</observations>
+        <observations>7.0</observations>
+        <observations>6.8</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000158d9</device_id>
+        <event_ts>2020-08-08T21:14:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>63</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.3</observations>
+    </device>
+
+    <device>
+        <country>SA</country>
+        <device_id>0x1000000012bbc</device_id>
+        <event_ts>2020-04-28T23:09:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>64</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.4</observations>
+    </device>
+
+    <device>
+        <country>GE</country>
+        <device_id>0x100000000dd1d</device_id>
+        <event_ts>2020-01-03T07:57:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>65</id>
+        <line>xyzzy</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>3.1</observations>
+        <observations>4.5</observations>
+    </device>
+
+    <device>
+        <country>FR</country>
+        <device_id>0x10000000136c2</device_id>
+        <event_ts>2020-11-02T12:21:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>66</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.5</observations>
+        <observations>5.0</observations>
+        <observations>2.7</observations>
+        <observations>9.6</observations>
+        <observations>3.5</observations>
+    </device>
+
+    <device>
+        <country>MX</country>
+        <device_id>0x100000000ec91</device_id>
+        <event_ts>2020-12-10T04:48:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>67</id>
+        <line>droid</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>1.9</observations>
+        <observations>4.8</observations>
+        <observations>8.3</observations>
+        <observations>7.3</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000046a</device_id>
+        <event_ts>2020-08-09T20:11:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>68</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.1</observations>
+    </device>
+
+    <device>
+        <country>AU</country>
+        <device_id>0x1000000007338</device_id>
+        <event_ts>2020-02-13T11:15:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>69</id>
+        <line>droid</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>1.9</observations>
+        <observations>8.7</observations>
+        <observations>7.5</observations>
+        <observations>6.4</observations>
+    </device>
+
+    <device>
+        <country>CA</country>
+        <device_id>0x1000000010fa3</device_id>
+        <event_ts>2020-12-23T11:35:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>70</id>
+        <line>gadget</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.8</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000115d2</device_id>
+        <event_ts>2020-04-19T05:19:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>71</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.9</observations>
+        <observations>5.5</observations>
+        <observations>5.6</observations>
+        <observations>1.3</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000035b2</device_id>
+        <event_ts>2020-06-04T04:56:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>72</id>
+        <line>lakehouse</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>3.3</observations>
+        <observations>4.2</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000001746f</device_id>
+        <event_ts>2020-06-02T09:15:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>73</id>
+        <line>delta</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>4.1</observations>
+        <observations>1.2</observations>
+        <observations>1.7</observations>
+    </device>
+
+    <device>
+        <country>SA</country>
+        <device_id>0x100000000f118</device_id>
+        <event_ts>2020-09-28T03:25:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>74</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>5.2</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x1000000003aab</device_id>
+        <event_ts>2020-04-01T05:33:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>75</id>
+        <line>delta</line>
+        <manufacturer>Delta corp</manufacturer>
+        <observations>7.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000cc3f</device_id>
+        <event_ts>2020-02-11T20:43:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>76</id>
+        <line>lakehouse</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>2.4</observations>
+        <observations>4.3</observations>
+        <observations>8.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000017618</device_id>
+        <event_ts>2020-08-21T00:35:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>77</id>
+        <line>gadget</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>7.5</observations>
+        <observations>5.5</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000255c</device_id>
+        <event_ts>2020-03-23T05:26:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>78</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>9.4</observations>
+        <observations>1.3</observations>
+        <observations>6.3</observations>
+        <observations>2.8</observations>
+    </device>
+
+    <device>
+        <country>GE</country>
+        <device_id>0x1000000015c6d</device_id>
+        <event_ts>2020-08-03T16:00:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>79</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>9.0</observations>
+        <observations>4.1</observations>
+        <observations>2.3</observations>
+        <observations>1.2</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000f77e</device_id>
+        <event_ts>2020-01-12T13:48:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>80</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.3</observations>
+    </device>
+
+    <device>
+        <country>GE</country>
+        <device_id>0x1000000003de9</device_id>
+        <event_ts>2020-08-15T18:08:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>81</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>9.2</observations>
+        <observations>8.6</observations>
+    </device>
+
+    <device>
+        <country>ES</country>
+        <device_id>0x10000000143b2</device_id>
+        <event_ts>2020-05-26T21:02:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>82</id>
+        <line>xyzzy</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.2</observations>
+        <observations>9.9</observations>
+        <observations>6.0</observations>
+        <observations>3.2</observations>
+        <observations>2.4</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x100000000aef5</device_id>
+        <event_ts>2020-07-13T00:08:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>83</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.6</observations>
+    </device>
+
+    <device>
+        <country>NL</country>
+        <device_id>0x1000000012c9f</device_id>
+        <event_ts>2020-01-18T00:29:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>84</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.7</observations>
+        <observations>2.8</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x100000000eff0</device_id>
+        <event_ts>2020-04-16T06:40:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>85</id>
+        <line>gadget</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>7.8</observations>
+        <observations>6.3</observations>
+        <observations>1.9</observations>
+        <observations>8.8</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000014acb</device_id>
+        <event_ts>2020-03-13T09:38:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>86</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>7.4</observations>
+        <observations>3.9</observations>
+        <observations>7.5</observations>
+        <observations>1.4</observations>
+        <observations>9.4</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000007c90</device_id>
+        <event_ts>2020-06-04T10:35:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>87</id>
+        <line>gadget</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>8.7</observations>
+        <observations>5.8</observations>
+        <observations>8.5</observations>
+        <observations>8.7</observations>
+        <observations>6.3</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x1000000017f9f</device_id>
+        <event_ts>2020-09-20T16:00:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>88</id>
+        <line>gadget</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>6.0</observations>
+        <observations>2.3</observations>
+        <observations>3.5</observations>
+        <observations>3.6</observations>
+        <observations>1.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000160c4</device_id>
+        <event_ts>2020-08-14T15:04:00.000Z</event_ts>
+        <event_type>deactivation</event_type>
+        <id>89</id>
+        <line>lakehouse</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>1.9</observations>
+        <observations>7.0</observations>
+        <observations>2.1</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x1000000004b95</device_id>
+        <event_ts>2020-04-27T03:32:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>90</id>
+        <line>gadget</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.1</observations>
+        <observations>9.4</observations>
+        <observations>5.0</observations>
+        <observations>8.7</observations>
+        <observations>3.3</observations>
+    </device>
+
+    <device>
+        <country>FR</country>
+        <device_id>0x100000000d19e</device_id>
+        <event_ts>2020-06-22T15:09:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>91</id>
+        <line>delta</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>2.4</observations>
+        <observations>4.4</observations>
+        <observations>3.8</observations>
+        <observations>3.9</observations>
+    </device>
+
+    <device>
+        <country>GB</country>
+        <device_id>0x100000000d0fd</device_id>
+        <event_ts>2020-07-27T05:00:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>92</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>3.7</observations>
+    </device>
+
+    <device>
+        <country>CN</country>
+        <device_id>0x10000000030ec</device_id>
+        <event_ts>2020-04-06T01:46:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>93</id>
+        <line>xyzzy</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>5.7</observations>
+        <observations>3.1</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x10000000160bd</device_id>
+        <event_ts>2020-02-09T20:32:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>94</id>
+        <line>lakehouse</line>
+        <manufacturer>Embanks Devices</manufacturer>
+        <observations>6.5</observations>
+        <observations>2.9</observations>
+        <observations>8.6</observations>
+        <observations>4.4</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000005e8e</device_id>
+        <event_ts>2020-05-13T11:08:00.000Z</event_ts>
+        <event_type>telecoms activity</event_type>
+        <id>95</id>
+        <line>delta</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>9.2</observations>
+        <observations>7.7</observations>
+        <observations>7.3</observations>
+        <observations>6.9</observations>
+        <observations>1.2</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x100000000c1d6</device_id>
+        <event_ts>2020-08-12T08:27:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>96</id>
+        <line>droid</line>
+        <manufacturer>Acme Corp</manufacturer>
+        <observations>4.8</observations>
+        <observations>4.3</observations>
+    </device>
+
+    <device>
+        <country>US</country>
+        <device_id>0x10000000004de</device_id>
+        <event_ts>2020-09-13T06:14:00.000Z</event_ts>
+        <event_type>device error</event_type>
+        <id>97</id>
+        <line>delta</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>6.9</observations>
+        <observations>4.6</observations>
+        <observations>6.4</observations>
+        <observations>5.2</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000008941</device_id>
+        <event_ts>2020-08-29T00:05:00.000Z</event_ts>
+        <event_type>plan change</event_type>
+        <id>98</id>
+        <line>lakehouse</line>
+        <manufacturer>Xyzzy Inc.</manufacturer>
+        <observations>8.8</observations>
+        <observations>7.5</observations>
+    </device>
+
+    <device>
+        <country>IN</country>
+        <device_id>0x1000000017fc2</device_id>
+        <event_ts>2020-09-12T23:45:00.000Z</event_ts>
+        <event_type>internet activity</event_type>
+        <id>99</id>
+        <line>gadget</line>
+        <manufacturer>Lakehouse Ltd</manufacturer>
+        <observations>4.6</observations>
+        <observations>2.7</observations>
+        <observations>9.2</observations>
+    </device>
+
+</devices>
