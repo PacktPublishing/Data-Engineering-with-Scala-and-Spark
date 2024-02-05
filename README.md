@@ -21,19 +21,21 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/Data-En
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example,
 
 The code will look like the following:
 ```
-val updateSilver: DataFrame = bronzeData
-    .select(from_json(col("value"), jsonSchema).alias("value"))
-    .select(
-      col("value.device_id"),
-      col("value.country"),
-      col("value.event_type"),
-      col("value.event_ts")
-     )
-    .dropDuplicates("device_id", "country", "event_ts")
+object Dependencies {
+  object Version {
+    val spark       = "3.3.1"
+    val deequ       = "2.0.4-spark-3.3"
+    val pureconfig  = "0.17.2"
+    val doobie      = "1.0.0-RC1"
+    val scalatest   = "3.2.16"
+    val wartremover = "3.1.3"
+    val aws         = "1.12.632"
+    val hadoop      = "3.3.1"
+  }
 ```
 
 **Following is what you need for this book:**
@@ -43,15 +45,15 @@ With the following software and hardware list you can run all code files present
 ## Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-13 | Microsoft Azure |  Windows, macOS, or Linux |
-| 1-13 | Databricks Community Edition |  Windows, macOS, or Linux |
-| 1-13 | JDK 8 |  Windows, macOS, or Linux |
-| 1-13 | Intellij IDEA |  Windows, macOS, or Linux |
-| 1-13 | VS Code |  Windows, macOS, or Linux |
-| 1-13 | Docker Community Edition |  Windows, macOS, or Linux |
-| 1-13 | Apache Spark 3.3.1 |  Windows, macOS, or Linux |
-| 1-13 | MySql |  Windows, macOS, or Linux |
-| 1-13 | MinIO |  Windows, macOS, or Linux |
+| 1-13 | Microsoft Azure | Either Windows, macOS, or Linux  |
+| 1-13 | Databricks Community Edition | Either Windows, macOS, or Linux  |
+| 1-13 | JDK 8 |  Either Windows, macOS, or Linux  |
+| 1-13 | Intellij IDEA | Either Windows, macOS, or Linux  |
+| 1-13 | VS Code |  Either Windows, macOS, or Linux  |
+| 1-13 | Docker Community Edition |  Either Windows, macOS, or Linux  |
+| 1-13 | Apache Spark 3.3.1 | Either Windows, macOS, or Linux  |
+| 1-13 | MySql |  Either Windows, macOS, or Linux  |
+| 1-13 | MinIO | Either Windows, macOS, or Linux  |
 
 
 ## Related products
