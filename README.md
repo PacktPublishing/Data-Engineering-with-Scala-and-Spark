@@ -47,7 +47,7 @@ With the following software and hardware list you can run all code files present
 | 1-13 | Databricks Community Edition | Windows, macOS, or Linux  |
 | 1-13 | JDK 8 |  Windows, macOS, or Linux  |
 | 1-13 | Intellij IDEA | Windows, macOS, or Linux  |
-| 1-13 | VS Code |  Either Windows, macOS, or Linux  |
+| 1-13 | VS Code |  Windows, macOS, or Linux  |
 | 1-13 | Docker Community Edition |  Windows, macOS, or Linux  |
 | 1-13 | Apache Spark 3.3.1 | Windows, macOS, or Linux  |
 | 1-13 | MySql |  Windows, macOS, or Linux  |
